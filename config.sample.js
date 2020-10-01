@@ -1,10 +1,10 @@
 module.exports = {
 	/* The token of your Discord Bot */
-	token: "XXXXXXXXXXX",
+	token: "NzYwNzM4MjQyNjgwMTkzMDk0.X3Qasg.UmmjY5gbJLFtf_6C9mRu55c2gIw",
 	/* For the support server */
 	support: {
-		id: "XXXXXXXXXXX", // The ID of the support server
-		logs: "XXXXXXXXXXX", // And the ID of the logs channel of your server (new servers for example)
+		id: "738390645432909885", // The ID of the support server
+		logs: "738393360368140363", // And the ID of the logs channel of your server (new servers for example)
 	},
 	/* Dashboard configuration */
 	dashboard: {
@@ -16,17 +16,17 @@ module.exports = {
 		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
 		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
-	mongoDB: "mongodb://localhost:27017/AtlantaBot", // The URl of the mongodb database
-	prefix: "*", // The default prefix for the bot
+	mongoDB: "mongodb+srv://mrcloud:adonly12345@fluffbotv1.djbdq.mongodb.net/test", // The URl of the mongodb database
+	prefix: "f!", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
-		color: "#0091fc", // The default color for the embeds
-		footer: "Atlanta | Open Source" // And the default footer for the embeds
+		color: "#00FFFF", // The default color for the embeds
+		footer: "Fluff Bot" // And the default footer for the embeds
 	},
 	/* Bot's owner informations */
 	owner: {
-		id: "XXXXXXXXXXX", // The ID of the bot's owner
-		name: "Androz#2091" // And the name of the bot's owner
+		id: "676745968867082250", // The ID of the bot's owner
+		name: "Mr Fluffycloud ™#3172" // And the name of the bot's owner
 	},
 	/* DBL votes webhook (optional) */
 	votes: {
@@ -57,12 +57,12 @@ module.exports = {
 	/* The Bot status */
 	status: [
 		{
-			name: "@Atlanta help on {serversCount} servers",
-			type: "LISTENING"
+			name: "Cloud HQ",
+			type: "WATCHING"
 		},
 		{
-			name: "my website : atlanta-bot.fr",
-			type: "PLAYING"
+			name: "to my Boss",
+			type: "LISTENING"
 		}
 	],
 	/* Language configuration */
